@@ -1,4 +1,4 @@
-#    This file is part of the ChannelAutoForwarder distribution (https://github.com/Benchamxd/Telegraph-Uploader).
+#    This file is part of the ChannelAutoForwarder distribution (https://github.com/suryaprabhas1245/Telegraph-Uploader).
 #    Copyright (c) 2021 Rithunand
 #    
 #    This program is free software: you can redistribute it and/or modify  
@@ -85,8 +85,8 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots'),
-        InlineKeyboardButton('Source Code', url='https://github.com/benchamxd/Telegraph-Uploader')
+        InlineKeyboardButton('Our Group', url='http://telegram.me/TeluguDubbedHorrorMovies2'),
+        InlineKeyboardButton('Source Code', url='https://github.com/suryaprabhas1245/Telegraph-Uploader')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
@@ -97,7 +97,7 @@ im a telegraph Uploader That Can Upload Photo, Video And Gif
         
 Simply send me photo, video or gif to upload to Telegra.ph
         
-Made With Love By @indusBots</b>""",
+Made By @suryaprabhas1245</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -110,7 +110,7 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/indusbots')
+        InlineKeyboardButton('Our Group', url='http://telegram.me/TeluguDubbedHorrorMovies2')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
